@@ -5,7 +5,7 @@ This is an example of isomorphic React.js application using [Webpack](webpack.gi
 Webpack and babel configurations are encapsulated by [webpack-tools](https://github.com/sergesemashko/webpack-tools), so you just use pre-configured Webpack and Babel which allows you to:
  
 - save time on configuring webpack and start development right away
-- version your webpack configuration and choose certain config in npm dependencies
+- version your webpack configuration and choose certain config from NPM dependencies
 - keep your favorite webpack configuration in sync on multiple projects
 
 
