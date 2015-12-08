@@ -4,9 +4,9 @@ When you are working on multiple projects with similiar architecture it makes se
 
 This is an example of isomorphic React.js application using [Webpack](webpack.github.io), [Babel.js](https://babeljs.io), [webpack-isomorphic-tools](https://www.npmjs.com/package/webpack-isomorphic-tools) and [sass](http://sass-lang.com/).
  
-Configurations of packages are encapsulated by [webpack-tools](https://github.com/sergesemashko/webpack-tools), so you just use pre-configured Webpack and Babel which allows you to:
+Configurations are encapsulated by [webpack-tools](https://github.com/sergesemashko/webpack-tools), so packages are already pre-configured which allows you to:
  
-- save time on configuring webpack and start development right away
+- save time on configuring webpack, babel.js, etc. and start development right away
 - version your webpack configuration and choose certain config from NPM dependencies
 - keep your favorite webpack configuration in sync on multiple projects
 
@@ -16,4 +16,4 @@ Configurations of packages are encapsulated by [webpack-tools](https://github.co
 ## Install
 
 1. `npm install`
-2. 1) `npm run dev` to start dev server or 2) `npm run start` to start server using producation config
+2. 1) `npm run dev` to start dev server or 2) `npm run start` to start server using production config
