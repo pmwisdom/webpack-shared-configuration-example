@@ -1,0 +1,43 @@
+{
+  "name": "webpack-shared-configuration-example",
+  "version": "0.0.1",
+  "description": "",
+  "main": " ",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergesemashko/webpack-shared-configuration-example.git"
+  },
+  "keywords": [
+    "webpack",
+    "React.js",
+    "Babel.js",
+    "webpack-isomorphic-tools"
+  ],
+  "author": "sergesemashko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sergesemashko/webpack-shared-configuration-example/issues"
+  },
+  "dependencies": {
+    "babel": "^5.8.34",
+    "babel-core": "^5.8.34",
+    "babel-loader": "^5.4.0",
+    "history": "^1.13.1",
+    "react": "^0.14.2",
+    "react-dom": "^0.14.2",
+    "react-router": "^1.0.0",
+    "webpack": "^1.12.6",
+    "react-shared-library-example": "git+https://git@github.com/sergesemashko/react-shared-library-example.git"
+  },
+  "devDependencies": {
+    "webpack-shared-config": "git+https://git@github.com/sergesemashko/webpack-tools.git"
+  },
+  "scripts": {
+    "dev": "webpack-tools dev",
+    "start": "webpack-tools build && webpack-tools start"
+  },
+  "homepage": "https://github.com/sergesemashko/webpack-shared-configuration-example#readme"
+}
