@@ -11,7 +11,7 @@ Configurations are encapsulated by [webpack-tools](https://github.com/sergesemas
 - keep your favorite webpack configuration in sync on multiple projects
 
 
-**IMPORTANT NOTE:** make sure you are using [NPM](www.npmjs.com) **2.x.x**, it may not working properly on **3.x.x** 
+**IMPORTANT NOTE:** make sure you are using [NPM](www.npmjs.com) **2.x.x**, it may not working properly with **3.x.x** 
 
 ## Install
 
